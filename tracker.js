@@ -26,7 +26,7 @@ try{
             }
         }
     }
-    else if(e.target.tagName === 'A' && e.target.closest('ul').id === 'menu-menu-1'){
+    else if(e.target.tagName === 'A' && e.target.closest('div').id === 'primary-menu'){
 
         dataLayer.push({
 
