@@ -1,5 +1,5 @@
 # tracker.js
-Super simple tracking script to track certain user interactions on my personal site. I add a click eventListener to the body object and a callback event handling function. When selected events take place, a defined dataLayer.push() call is executed to populated the Google Tag Manager (GTM) dataLayer.
+Super simple tracking script to track certain user interactions on my personal site. I add a click eventListener to the document object and a callback event handling function. When selected events take place, a defined dataLayer.push() call is executed to populated the Google Tag Manager (GTM) dataLayer.
 
 Additionally, this script handles the following GA4 Enhanced Ecommerce (EEC) event dataLayers:
 
