@@ -3,8 +3,8 @@ Super simple tracking script to track certain user interactions on my personal s
 
 Additionally, this script handles the following GA4 Enhanced Ecommerce (EEC) event dataLayers:
 
--view_item_list This event is pushed to the GTM dataLayer when either the home or category pages are displayed
--select_item This event is pushed to the GTM dataLayer when a user clicks on any of the blog posts listed on the home or category pages
--view_item This event is pushed to the GTM dataLayer when a blog post is displayed 
--add_to_cart This event is pushed to the GTM dataLayer when a user scroll reaches 50% of the height of a blog post
--purchase This event is pushed to the GTM dataLayer when a user scroll reaches 100% of the height of a blog post
+-view_item_list This event is pushed to the GTM dataLayer when either the home or category pages are displayed <br />
+-select_item This event is pushed to the GTM dataLayer when a user clicks on any of the blog posts listed on the home or category pages <br />
+-view_item This event is pushed to the GTM dataLayer when a blog post is displayed <br />
+-add_to_cart This event is pushed to the GTM dataLayer when a user scroll reaches 50% of the height of a blog post <br />
+-purchase This event is pushed to the GTM dataLayer when a user scroll reaches 100% of the height of a blog post <br />
