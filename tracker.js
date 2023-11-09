@@ -68,6 +68,11 @@
                 item.addEventListener('click', function(event){
                     //Set clicked item's index in sessionStorage so that it can be retrieved on the view_item event if applicable 
                     sessionStorage.setItem('itemIndex',itemNumber+1);
+                    //Flush the dataLayer.ecommerce object so that the clicked item params are pushed to empty items array
+                    window.dataLayer.push({
+                        ecommerce:null
+                    });    
+                    //Execute 'select_item' event dataLayer.push()
                     window.dataLayer.push({
                         //select_item dataLayer
                             event:'select_item',
@@ -273,4 +278,3 @@
     }
 
 })();
-
